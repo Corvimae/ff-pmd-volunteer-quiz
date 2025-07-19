@@ -1,0 +1,32 @@
+[
+    {
+        "id": 0,
+        "title": "Your best friend just opened a new restaurant and is asking for your help on opening day. What do you do?",
+        "responses": [
+            {
+                "id": 0,
+                "response": "Ask to help out with the customers - you connect with people and want to help bring in patrons",
+                "scores": [
+                    {
+                        "nature": "Stream Tech",
+                        "points": 4
+                    },
+                    {
+                        "nature": "Tech Checker",
+                        "points": 2
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "response": "Ask to help out with accounting or the inventory system - you understand systems and want to use that to help things go smoothly",
+                "scores": [
+                    {
+                        "nature": "Games Committee",
+                        "points": 4
+                    }
+                ]
+            }
+        ]
+    }
+]

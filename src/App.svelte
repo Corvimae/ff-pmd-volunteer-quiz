@@ -6,7 +6,7 @@
   import { isTouchEnabled, getLanguage } from "./assets/utils.js";
   import { transition_in } from "svelte/internal";
 
-  $store.numQuestions = 10;
+  $store.numQuestions = 9;
   let musicBg = null;
   let loaded = loadData();
   let isPlaying = false;
@@ -98,7 +98,7 @@
             finishedTransition = true;
           }}">
           <div
-            class="flex flex-col select-none justify-center items-center text-center h-[45vh] w-screen bg-black/50 hover:bg-black/60 transition-all duration-300 z-10"
+            class="flex flex-col select-none justify-center items-center text-center h-[90vh] w-screen bg-black/50 hover:bg-black/60 transition-all duration-300 z-10"
             on:click="{() => {
               canStart = true;
             }}"
@@ -111,23 +111,9 @@
             </h1>
           </div>
           <div
-            class="flex flex-col select-none justify-center items-center text-center h-[45vh] w-screen bg-black/50 hover:bg-black/60 transition-all duration-300 z-10"
-            on:click="{() => {
-              canStart = true;
-              $store.numQuestions = -1;
-            }}"
-            on:keydown>
-            <h1 class="text-4xl lg:text-8xl text-white animate-pulse">
-              {data.strings["FullMode"]}
-            </h1>
-            <h1 class="text-2xl lg:text-4xl text-white/75">
-              {data.strings["63"]}
-            </h1>
-          </div>
-          <div
             class="flex flex-col select-none justify-center items-center text-center h-[10vh] w-screen bg-black/50 hover:bg-black/60 transition-all duration-300 z-10"
             on:click="{() => {
-              window.open('https://twitter.com/rionisguild', '_blank');
+              window.open('https://github.com/Nrosa01/pmd-quiz-online', '_blank');
             }}"
             on:keydown>
             <p class="text-sm lg:text-2xl text-white/75 underline">

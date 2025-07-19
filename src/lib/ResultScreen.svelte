@@ -52,7 +52,10 @@
         
         if (!set.has(valueLower)) {
           set.add(valueLower);
-          imagesSrc.push("img/pokemonicons/" + valueLower + ".png");
+          imagesSrc.push({
+            name: value,
+            icon: "img/pokemonicons/" + valueLower + ".png"
+          });
         }
       }
     }
@@ -68,7 +71,7 @@
 {#if !doTransition}
   <section transition:fade class="z-50" on:outroend="{() => restart()}">
     <!-- Using Tailwind CSS, build a grid that divides screen in half. The right grid is vertically divied in other two sections -->
-    <div class="grid lg:grid-cols-2 h-screen w-screen">
+    <div class="grid lg:grid-cols-1 h-screen w-screen">
       <!-- Left grid -->
       <div
         class="bg-black/50 flex flex-col flex-wrap justify-end lg:justify-center items-center pt-2">
@@ -79,10 +82,13 @@
         <div
           class="flex flex-row flex-wrap justify-center items-center w-[90%] gap-4 pointer-events-none select-none pb-4">
           {#each imagesSrc as source}
-            <img
-              src="{source}"
-              alt=""
-              class="w-[25%] rendering-pixelated img-box" />
+            <div class="flex flex-col items-center">
+              <img
+                src="{source.icon}"
+                alt=""
+                class="w-[25%] rendering-pixelated img-box" />
+              <p class="text-white">{source.name}</p>
+            </div>
           {/each}
         </div>
         <button
@@ -95,7 +101,7 @@
       <!-- Right grid -->
       <div
         class="bg-black/50 flex flex-col flex-wrap justify-start lg:justify-center items-center pb-2">
-        <RadialChart class="w-[75%] m-0 p-0" />
+        <!-- <RadialChart class="w-[75%] m-0 p-0" /> -->
 
         <button
         on:click="{() => {

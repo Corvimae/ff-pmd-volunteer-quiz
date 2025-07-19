@@ -61,7 +61,11 @@
     numberOfQuestions = $store.numQuestions;
 
     if (numberOfQuestions > 0) {
-      questions = getRandomNumOfQuestions(numberOfQuestions);
+      questions =
+        getRandomNumOfQuestions(numberOfQuestions).map((question) => ({
+          ...question,
+          responses: utils.shuffleArray(question.responses)
+        }))
     } else {
       numberOfQuestions = data.length;
       questions = data;
