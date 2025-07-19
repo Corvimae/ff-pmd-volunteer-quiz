@@ -42,7 +42,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          VITE_BASE: pmd-quiz-online
+          VITE_BASE: ff-pmd-volunteer-quiz
 
       - name: Upload compiled source
         uses: actions/upload-artifact@v4
