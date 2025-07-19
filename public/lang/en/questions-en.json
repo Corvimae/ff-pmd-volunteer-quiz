@@ -8,19 +8,19 @@
                 "response": "Lights, sound - anything with wires and buttons that I can mess with",
                 "scores": [
                     {
-                        "nature": "Audio tech",
+                        "nature": "Audio Tech",
                         "points": 20
                     },
                     {
-                        "nature": "Stream tech",
+                        "nature": "Stream Tech",
                         "points": 20
                     },
                     {
-                        "nature": "Tech checker",
+                        "nature": "Tech Checker",
                         "points": 20
                     },
                     {
-                        "nature": "Stream checker",
+                        "nature": "Stream Checker",
                         "points": 20
                     }
                 ]
@@ -34,15 +34,15 @@
                         "points": 20
                     },
                     {
-                        "nature": "Games committee",
+                        "nature": "Games Committee",
                         "points": 20
                     },
                     {
-                        "nature": "Socials",
+                        "nature": "Social Media",
                         "points": 20
                     },
                     {
-                        "nature": "Chat mod",
+                        "nature": "Chat Mod",
                         "points": 20
                     }
                 ]
@@ -56,7 +56,7 @@
                         "points": 20
                     },
                     {
-                        "nature": "Commentary buddy",
+                        "nature": "Commentary Buddy",
                         "points": 20
                     }
                 ]
@@ -82,7 +82,7 @@
                 "response": "The one causing all the problems ;)",
                 "scores": [
                     {
-                        "nature": "Games committee",
+                        "nature": "Games Committee",
                         "points": 8
                     }
                 ]
@@ -92,7 +92,7 @@
                 "response": "The comic relief - I'm chaotically unpredictable",
                 "scores": [
                     {
-                        "nature": "Socials",
+                        "nature": "Social Media",
                         "points": 8
                     }
                 ]
@@ -102,7 +102,7 @@
                 "response": "The one looking out for everyone else - stay hydrated!",
                 "scores": [
                     {
-                        "nature": "Chat mod",
+                        "nature": "Chat Mod",
                         "points": 8
                     }
                 ]
@@ -118,7 +118,7 @@
                 "response": "A Queen or monarch - put me in charge!",
                 "scores": [
                     {
-                        "nature": "Games committee",
+                        "nature": "Games Committee",
                         "points": 1
                     },
                     {
@@ -136,7 +136,7 @@
                         "points": 1
                     },
                     {
-                        "nature": "Commentary buddy",
+                        "nature": "Commentary Buddy",
                         "points": 8
                     }
                 ]
@@ -152,7 +152,7 @@
                 "response": "I listen carefully to the instructions so I don't miss any details",
                 "scores": [
                     {
-                        "nature": "Audio tech",
+                        "nature": "Audio Tech",
                         "points": 8
                     }
                 ]
@@ -162,7 +162,7 @@
                 "response": "I start scanning the room to look for things that are out of place",
                 "scores": [
                     {
-                        "nature": "Stream tech",
+                        "nature": "Stream Tech",
                         "points": 8
                     }
                 ]
@@ -172,7 +172,7 @@
                 "response": "I compare the things in the room to stuff I've seen before",
                 "scores": [
                     {
-                        "nature": "Tech checker",
+                        "nature": "Tech Checker",
                         "points": 8
                     }
                 ]
@@ -182,7 +182,7 @@
                 "response": "I wait for a minute and then go help whoever needs another pair of hands",
                 "scores": [
                     {
-                        "nature": "Stream checker",
+                        "nature": "Stream Checker",
                         "points": 8
                     }
                 ]
@@ -198,7 +198,7 @@
                 "response": "The boppin' soundtrack - check out those tunes!",
                 "scores": [
                     {
-                        "nature": "Audio tech",
+                        "nature": "Audio Tech",
                         "points": 6
                     }
                 ]
@@ -208,7 +208,7 @@
                 "response": "The notes on screen as they fly on by! They're mesmerizing",
                 "scores": [
                     {
-                        "nature": "Stream tech",
+                        "nature": "Stream Tech",
                         "points": 6
                     }
                 ]
@@ -218,7 +218,7 @@
                 "response": "ALL OF THE THINGS!",
                 "scores": [
                     {
-                        "nature": "Tech checker",
+                        "nature": "Tech Checker",
                         "points": 6
                     }
                 ]
@@ -228,7 +228,7 @@
                 "response": "The person dancing - how do they move so fast?!?",
                 "scores": [
                     {
-                        "nature": "Stream checker",
+                        "nature": "Stream Checker",
                         "points": 6
                     }
                 ]
@@ -264,7 +264,7 @@
                 "response": "Start assembling right away and check the instructions if I get stuck",
                 "scores": [
                     {
-                        "nature": "Games committee",
+                        "nature": "Games Committee",
                         "points": 6
                     }
                 ]
@@ -280,7 +280,7 @@
                 "response": "I send them supportive messages throughout the day <3",
                 "scores": [
                     {
-                        "nature": "Commentary buddy",
+                        "nature": "Commentary Buddy",
                         "points": 6
                     }
                 ]
@@ -290,7 +290,7 @@
                 "response": "Memes. Memes fix everything",
                 "scores": [
                     {
-                        "nature": "Socials",
+                        "nature": "Social Media",
                         "points": 6
                     }
                 ]
@@ -300,7 +300,7 @@
                 "response": "I offer to listen to their problems so they can vent",
                 "scores": [
                     {
-                        "nature": "Chat mod",
+                        "nature": "Chat Mod",
                         "points": 6
                     }
                 ]
@@ -316,7 +316,7 @@
                 "response": "Party games like Pictionary or Jackbox - look out for my creativity",
                 "scores": [
                     {
-                        "nature": "Socials",
+                        "nature": "Social Media",
                         "points": 1
                     }
                 ]
@@ -326,7 +326,7 @@
                 "response": "Arcade games like whack-a-mole or ball toss - watch these reflexes",
                 "scores": [
                     {
-                        "nature": "Chat mod",
+                        "nature": "Chat Mod",
                         "points": 1
                     }
                 ]
@@ -342,19 +342,19 @@
                 "response": "Learning something new!",
                 "scores": [
                     {
-                        "nature": "Audio tech",
+                        "nature": "Audio Tech",
                         "points": 18
                     },
                     {
-                        "nature": "Stream tech",
+                        "nature": "Stream Tech",
                         "points": 18
                     },
                     {
-                        "nature": "Tech checker",
+                        "nature": "Tech Checker",
                         "points": 18
                     },
                     {
-                        "nature": "Stream checker",
+                        "nature": "Stream Checker",
                         "points": 18
                     }
                 ]
@@ -368,7 +368,7 @@
                         "points": 18
                     },
                     {
-                        "nature": "Games committee",
+                        "nature": "Games Committee",
                         "points": 18
                     },
                     {
@@ -382,15 +382,15 @@
                 "response": "Meeting new Fatales!",
                 "scores": [
                     {
-                        "nature": "Commentary buddy",
+                        "nature": "Commentary Buddy",
                         "points": 18
                     },
                     {
-                        "nature": "Socials",
+                        "nature": "Social Media",
                         "points": 18
                     },
                     {
-                        "nature": "Chat mod",
+                        "nature": "Chat Mod",
                         "points": 18
                     }
                 ]
